@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "./pages/AppLayout.tsx";
 import StockList from "./pages/stocks/StockList.tsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*
 BrowserRouter：URLの変更を監視し、対応するコンポーネントを表示する。
